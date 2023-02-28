@@ -1,3 +1,31 @@
-json: {
-  test: "value"
-}
+ "wrike-plugin/hardcoded-property-value": [
+      {
+        "properties": [
+          "background",
+          "background-color",
+          "color",
+          "fill",
+          "stroke",
+          "border-color",
+          "border",
+          "box-shadow",
+          "outline",
+          "outline-color",
+          "font",
+          "font-size",
+          "line-height",
+          "font-weight"
+        ],
+        "allowValues": [
+          "initial",
+          "none",
+          "currentColor",
+          "inherit",
+			"transparent"
+        ]
+      },
+      {
+        "severity": "warning"
+      }
+]
+        
